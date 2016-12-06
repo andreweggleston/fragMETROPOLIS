@@ -1,0 +1,16 @@
+#version 330
+
+in vec2 out_uvs;
+
+out vec4 out_color;
+
+uniform sampler2D texSamp;
+uniform vec4 color;
+
+void main(void) {
+    out_color = texture(texSamp, out_uvs).rgba;
+    out_color.x *= color.x;
+    out_color.y *= color.y;
+    out_color.z *= color.z;
+    out_color.a *= color.w;
+}

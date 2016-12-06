@@ -1,0 +1,11 @@
+#version 330
+
+in vec3 color;
+
+out vec4 out_color;
+
+uniform sampler2D texSamp;
+
+void main(void) {
+    out_color = vec4(color, 1.0);
+}

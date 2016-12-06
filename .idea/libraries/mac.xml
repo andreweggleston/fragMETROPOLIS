@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mac">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/natives/mac" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
